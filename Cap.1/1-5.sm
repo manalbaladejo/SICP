@@ -1,0 +1,13 @@
+;;; Exercise 1-5
+
+(define (p) (p))
+
+(define (test x y)
+	(if (= x 0)
+	0
+	y))
+
+(test 0 (p))
+
+#| Following applicative-order model the evaluation falls on a recursive loop when try to eval p procedure, and replaces it by p procedure, and so, and so...
+Is your substitution model is normal-order model, evaluation don't fall on recursive loop, because that p procedure never gonna be evaluated, because application flow never calls p procedure. |#

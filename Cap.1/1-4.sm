@@ -1,0 +1,9 @@
+;;; Exercise 1-4
+
+(define (a-plus-abs-b a b)
+	((if (> b 0) + -) a b)) 
+
+#| Our model evaluation model, applicative-order, replace procedure name by his body and set his formal parameters by the arguments we provided.
+
+If we eval (a-plus-abs-b 1 -1), a-plus-abs-b is substituted by his body, and formal parameters a and b, replaced by 1 and -1. If b is greater than 0, conditional expression returns + procedure, else, returns - procedure, and then applies to a b (1, -1) operands.
+|#
