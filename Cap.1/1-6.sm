@@ -1,0 +1,7 @@
+;;; If you try to compute the Heron Square Roots calc method using a custom
+;;; "If" procedure, you going to attach to aplicative-order model, this is,
+;;; the general rules of evaluation of combinations, and the substitution model
+;;; for procedure application. So you go to evaluate every subexpreesion on
+;;; overll procedure, so you can fall in a recursive loop of evaluation in some
+;;; procedures. In other hand, using a special form "If", allows to avoid this
+;;; general procedure evaluation method. 
