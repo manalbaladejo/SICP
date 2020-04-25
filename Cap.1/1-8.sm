@@ -1,3 +1,6 @@
+;;; Issues with this exercise. You must change the good-enoigh? test, to adapt
+;;; it to the cube.
+
 (define (cube x) (* x x x))
 
 (define (square x) (* x x))
