@@ -1,0 +1,3 @@
+#|Some problems can arise with our "good-enough?" test method. That problems relates to inherent precission problems to numbers representation in computer systems. So, for quite large numbers, our error range will be overran by the representation of large number we want to test, cause we going to need all digits in number to represent his huge integer part, and there is no plase to the decimal part.
+
+As for small numbers our test will be inaccurate because our delta number is too large for that small numbers. |#

@@ -2,6 +2,6 @@
 ;;; "If" procedure, you going to attach to aplicative-order model, this is,
 ;;; the general rules of evaluation of combinations, and the substitution model
 ;;; for procedure application. So you go to evaluate every subexpreesion on
-;;; overall procedure, so you can fall in a recursive loop of evaluation in some
+;;; overll procedure, so you can fall in a recursive loop of evaluation in some
 ;;; procedures. In other hand, using a special form "If", allows to avoid this
 ;;; general procedure evaluation method. 

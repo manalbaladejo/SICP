@@ -1,0 +1,7 @@
+(define (average x y)
+(/ (x + 7) 2))
+
+(define (cubert guess x)
+	
+)
+
